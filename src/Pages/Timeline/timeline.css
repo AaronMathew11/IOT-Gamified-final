@@ -1,0 +1,270 @@
+.body {
+  background-color: #222831;
+  background-image: url(asteroids.gif);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.body .div {
+  background-color: #222831;
+  background-image: url(asteroids.gif);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 1440px;
+  height: 2493px;
+  position: relative;
+}
+
+.body .overlap {
+  position: absolute;
+  width: 1172px;
+  height: 578px;
+  top: 1480px;
+  left: 218px;
+}
+
+.body .rectangle {
+  position: absolute;
+  width: 1148px;
+  height: 344px;
+  top: 93px;
+  left: 24px;
+}
+
+.body .group {
+  position: absolute;
+  width: 1018px;
+  height: 578px;
+  top: 0;
+  left: 0;
+}
+
+.body .text-wrapper {
+  position: absolute;
+  width: 642px;
+  top: 254px;
+  left: 372px;
+  font-family: "Calibri-Regular", Helvetica;
+  font-weight: 400;
+  color: #e0e0e0;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.body .overlap-group {
+  position: absolute;
+  width: 540px;
+  height: 49px;
+  top: 171px;
+  left: 372px;
+}
+
+.body .rectangle-2 {
+  position: absolute;
+  width: 224px;
+  height: 49px;
+  top: 0;
+  left: 228px;
+  background-color: #ffffff;
+  border-radius: 11px;
+}
+
+.body .download-the-IOT {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.body .span {
+  font-weight: 700;
+  color: #e0e0e0;
+}
+
+.body .text-wrapper-2 {
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #e0e0e0;
+}
+
+.body .text-wrapper-3 {
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #222831;
+}
+
+.body .text-wrapper-4 {
+  font-weight: 700;
+  color: #222831;
+}
+
+.body .free-iphonex-mockup {
+  position: absolute;
+  width: 372px;
+  height: 578px;
+  top: 0;
+  left: 0;
+}
+
+.body .rectangle-3 {
+  position: absolute;
+  width: 10px;
+  height: 230px;
+  top: 605px;
+  left: 1555px;
+  background-color: #ffffff;
+}
+
+.body .interesting-tagline {
+  position: absolute;
+  height: 24px;
+  top: 399px;
+  left: 611px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.body .overlap-group-wrapper {
+  position: absolute;
+  width: 183px;
+  height: 53px;
+  top: 684px;
+  left: 630px;
+}
+
+.body .div-wrapper {
+  position: relative;
+  width: 181px;
+  height: 53px;
+  background-color: #ffffff;
+  border-radius: 27px;
+}
+
+.body .text-wrapper-5 {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-family: "Pixeloid Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.body .text-wrapper-6 {
+  position: absolute;
+  top: 943px;
+  left: 145px;
+  font-family: "Pixeloid Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.body .p {
+  position: absolute;
+  width: 642px;
+  top: 1085px;
+  left: 709px;
+  font-family: "Calibri-Regular", Helvetica;
+  font-weight: 400;
+  color: #e0e0e0;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.body .line {
+  position: absolute;
+  width: 509px;
+  height: 3px;
+  top: 1006px;
+  left: 200px;
+}
+
+.body .ellipse {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 997px;
+  left: 709px;
+  background-color: #ffffff;
+  border-radius: 10.5px;
+}
+
+.body .navbar {
+  display: flex;
+  width: 608px;
+  height: 25px;
+  align-items: flex-start;
+  gap: 2px;
+  position: absolute;
+  top: 16px;
+  left: 808px;
+}
+
+.body .text-wrapper-7 {
+  position: relative;
+  width: 120px;
+  height: 25px;
+  margin-top: -1px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.body .SOCIALS-FOOTER {
+  position: absolute;
+  width: 1439px;
+  height: 132px;
+  top: 2361px;
+  left: 0;
+}
+
+.body .iothinc-white {
+  position: absolute;
+  width: 88px;
+  height: 66px;
+  top: 6px;
+  left: 17px;
+  object-fit: cover;
+}
+
+.body .text-wrapper-8 {
+  position: absolute;
+  top: 146px;
+  left: 79px;
+  font-family: "Pixeloid Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 150px;
+  letter-spacing: 0;
+  line-height: normal;
+}

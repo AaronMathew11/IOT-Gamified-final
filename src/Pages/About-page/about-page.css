@@ -1,0 +1,408 @@
+body{
+    /* background: url(images-p/grav_bg3.avif) center center/cover; */
+    background-color: #222831;
+    overflow-x: hidden;
+ }
+ /* body::before {
+   content: "";
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: radial-gradient(circle, #fff 0.25px, transparent 2px);
+   background-size: 50px 50px; 
+   pointer-events: none; 
+} */
+
+ 
+header img{
+    
+     height:50px;
+     width:76px;
+ }
+ /*First part*/
+ .box-1 ul{
+     display: flex;
+     width:1500px;
+     height:50px;
+     justify-content: center;
+ }
+ .box-1 ul li{
+    list-style: none;
+    margin:8px;
+    color: #E0E0E0;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ .box-1 ul{
+    position: relative;
+    right:415px;
+    top:27px;
+ }
+  
+
+ .box2 ul li{
+     list-style: none;
+ }
+ .box2 ul li img{
+   width: 337px;
+    height: 305px;
+    position: relative;
+    left: 29%;
+    top: 44px;  
+ }
+ .box2 ul{
+    display: flex;
+  
+ }
+ #sec2{
+   width: 704px;
+   height: 325px;
+   position: relative;
+   top: 54px;
+   left: 49%;
+   color: #E0E0E0;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   line-height: normal;
+ }
+
+ .mid{
+    position:relative;
+     top:110px;
+     
+ }
+ #second{
+   color: #E0E0E0;
+   font-family: 'VT323', monospace;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   position:relative;
+   bottom:2px;
+ }
+ /*Middle part*/
+ #design{
+    width: 500px;
+    height: 50px;
+    color: #E0E0E0;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position:relative;
+    left:107px;
+ }
+ .member-1 ul{
+    display: flex;
+    gap:75px;
+    position:relative;
+    left:162px;
+ }
+
+ .member-1 ul li{
+     color: white;
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+    
+ }
+ #pic-1{
+    /* width:180px;
+    height:180px; */
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-1:hover{
+   /* width:180px;
+   height:180px; */
+   scale:1.1;
+}
+ #pic-2{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-2:hover{
+   /* width:180px;
+   height:180px; */
+   scale:1.1;
+}
+ #pic-3{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-3:hover{
+   /* width:180px;
+   height:180px; */
+   scale:1.1;
+}
+ #pic-4{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-4:hover{
+   /* width:180px;
+   height:180px; */
+   scale:1.1;
+}
+ #pic-5{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-5:hover{
+   scale:1.1;
+}
+ #Developer{
+    width: 500px;
+    height: 50px;
+    color: #E0E0E0;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position:relative;
+    left:107px;
+ }
+
+ .member-2 ul{
+    display: flex;
+    gap:75px;
+    position:relative;
+    left:162px;
+ }
+
+ .member-2 ul li{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ #pic-21{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-21:hover{
+   scale:1.1;
+}
+ #pic-22{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-22:hover{
+   scale:1.1;
+}
+ #pic-23{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-23:hover{
+   scale:1.1;
+}
+ #pic-24{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-24:hover{
+   scale:1.1;
+}
+ #pic-25{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-25:hover{
+   scale:1.1;
+}
+ 
+ #Mng{
+    width: 500px;
+    height: 50px;
+    color: #E0E0E0;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position:relative;
+    left:107px;
+ }
+
+ .member-3 ul{
+    display: flex;
+    gap:75px;
+    position:relative;
+    left:162px;
+ }
+
+ .member-3 ul li{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ #pic-31{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-31:hover{
+   scale:1.1;
+}
+ #pic-32{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-32:hover{
+   scale:1.1;
+}
+ #pic-33{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-33:hover{
+   scale:1.1;
+}
+ #pic-34{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ }
+ #pic-34:hover{
+   scale:1.1;
+}
+ #pic-35{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    background-color: grey;
+ } 
+ #pic-35:hover{
+   scale:1.1;
+}
+
+  .part1{
+     padding-bottom: 70px;
+  }
+  .part2{
+    padding-bottom: 70px;
+ }
+ 
+ /*Footer*/
+ footer{
+   border: 0;
+   background-color: #15191F;
+   position: absolute;
+   top: 2037px;
+   left: -1px;
+   width: 1850px;
+   height: 162px;
+ }
+
+ footer .image{
+     display: flex;
+     justify-content: center;    
+     gap:35px;
+     position:absolute;
+     left:650px;
+     top:73px;
+ }
+
+
+#media img{
+   width:38px;
+   height: 38px;
+}
+#media img:hover{
+   scale:1.2;
+   
+}
+
+#linkdin img{
+   width:38px;
+   height: 38px;
+   filter:invert(60%);
+}
+#linkdin img:hover{
+   scale:1.2;
+   filter: invert();
+}
+#insta img{
+   width:38px;
+   height: 38px;
+   filter:invert(60%);
+}
+#insta img:hover{
+   scale:1.2;
+   filter: invert();
+   
+}
+#youtube img{
+   width: 44px;
+   height: 52px;
+   filter: invert(60%);
+   position: relative;
+   top: -6px;
+}
+#youtube img:hover{
+   scale:1.2;
+   filter: invert();
+}
+#twitter img{
+   width:38px;
+   height: 38px;
+   filter:invert(60%);
+}
+#twitter img:hover{
+   scale:1.2;
+   filter: invert();
+   
+}
+#facebook img{
+   width:38px;
+   height: 38px;
+   filter:invert(60%);
+}
+#facebook img:hover{
+   scale:1.2;
+   filter: invert();
+   
+}
+
+
+
+

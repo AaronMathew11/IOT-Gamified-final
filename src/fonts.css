@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Pixeloid Sans';
+    src: url('./Fonts/PixeloidSans-nR3g1.ttf') format('ttf'),
+         url('./Fonts/PixeloidMono-1G8ae.ttf') format('ttf'),
+         url('./Fonts/PixeloidSansBold-RpeJo.ttf') format('ttf');
+}

@@ -1,0 +1,40 @@
+/* Common styles for both desktop and mobile */
+h2 {
+    padding: 30px 0 30px;
+    position: relative;
+    margin-bottom: 0px;
+  }
+  
+  .img-txt-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .image{
+    width: 500px;
+  }
+  .about-text-div {
+    flex: 1; 
+    max-width: 80%; 
+    max-height: 80%;
+    padding: 15px;
+    margin: 10px; 
+  }
+  
+  .about-text {
+    text-align: left;
+  }
+  
+  @media (max-width: 768px) {
+    .img-txt-box {
+      flex-direction: column; 
+    }
+  
+    .image,
+    .about-text-div {
+      max-width: 100%; 
+      text-align: center;
+    }
+  }
+  

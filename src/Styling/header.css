@@ -1,0 +1,36 @@
+.navbar-nav > li {
+  font-size: 14px;
+    float: left;
+    padding-top: -5px;
+    padding-bottom: -5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .transparent-navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .Navbar.Brand {
+    margin: 0;
+    padding: 0;
+  }
+
+#logo{
+  height: 40px
+}
+
+/*Not able to add the underline feature of the active link*/ 
+/* .active a::after {
+    border-bottom: 5px solid white;
+    bottom: -10px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+} */
+
