@@ -4,7 +4,7 @@ import Footer from "./Components/footer"
 import Home from './Pages/Landing_page/Home'
 import About from './Pages/About-page/about-page'
 import Faq from './Pages/FAQ/faq'
-import OurTeam from './Pages/Our_Team/our_team';
+import Timeline from './Pages/Timeline/Timeline';
 import ContactUs from './Pages/Contact-Us/contact-us';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -15,8 +15,8 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/timeline" element={<About />} />
-        <Route path="/team" element={<OurTeam />} />
+        <Route path="/timeline" element={<Timeline />} />
+        <Route path="/team" element={<About />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
