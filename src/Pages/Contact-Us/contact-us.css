@@ -1,0 +1,78 @@
+.outer-contact{
+    display: flex;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+}
+
+.contact-us{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #15191F;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+.contact-form{
+    
+}
+.contact-form h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.info-details{
+    display: flex;
+    align-items: center;
+    height: 125px;
+}
+
+.info img{
+    height: 20px;
+    width: 20px;
+    margin: 30px;
+}
+
+
+.form-inputs textarea{
+    margin: 0 20px 10px 20px;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.form-inputs input{
+    padding: 10px;
+    margin: 0 20px 10px 20px;
+}
+.form-inputs > *{
+    border-radius: 5px;
+}
+.submit-button{
+    background-color: #15191F;
+    border-radius: 40px;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 15px 10px 15px 10px;
+}
+.submit-button:hover{
+    background-color: black;
+    color: white;
+}
+.info-detail-ka-detail h4{
+    font-size: 18px;
+}
+/* 
+.info-detail-ka-detail p{
+    font-size: 12px;
+} */

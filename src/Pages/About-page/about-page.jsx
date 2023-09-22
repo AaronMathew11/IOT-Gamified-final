@@ -1,6 +1,6 @@
 import React from "react";
 import "./about-page.css";
-import logo from "../../Images/Iothinc-logo.png";
+import logo from "../../Images/iothinc-logo.png";
 import image from "../../Images/dots.png";
 
 function About() {
@@ -20,7 +20,7 @@ function About() {
             Meet the people behind IOT Gamified
           </h1>
           <div className='content-container'>
-            <img src={logo} height={200} width={400} id='page-logo' />
+            <img src={logo} height={200} width={400} id='page-logo' alt="logo"/>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
